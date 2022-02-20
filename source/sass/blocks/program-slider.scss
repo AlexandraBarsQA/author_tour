@@ -35,8 +35,6 @@
   padding-right: 8%;
   height: 100%;
   justify-content: flex-end;
-      -webkit-animation-name: fade;
-    -webkit-animation-duration: 1s;
   animation-name: fade;
   animation-duration: 1s;
 
@@ -118,11 +116,7 @@
   display: flex;
 }
 
-
-
-
 /* Кнопки вперед и назад */
-
 
 .program-slider__toggles {
   position: absolute;
@@ -158,7 +152,7 @@
   }
 }
 
-.program-slider__toggles  {
+.program-slider__toggles {
   border: none;
   outline: none;
   cursor: pointer;
